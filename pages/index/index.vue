@@ -151,17 +151,17 @@ onMounted(async () => {
 
 // SEO 元数据
 useSeoMeta({
-  title: "盘盘 - 全网最全的网盘搜索",
+  title: "兔兔盘 - 全网最全的网盘搜索",
   description:
     "聚合阿里云盘、夸克、百度网盘、115、迅雷等平台，实时检索各类分享链接与资源，免费、快速、无广告。",
-  ogTitle: "盘盘 - 全网最全的网盘搜索",
+  ogTitle: "兔兔盘 - 全网最全的网盘搜索",
   ogDescription:
     "聚合阿里云盘、夸克、百度网盘、115、迅雷等平台，实时检索各类分享链接与资源，免费、快速、无广告。",
   ogType: "website",
-  ogSiteName: "盘盘",
+  ogSiteName: "兔兔盘",
   ogImage: siteUrl ? `${siteUrl}/og.svg` : "/og.svg",
   twitterCard: "summary_large_image",
-  twitterTitle: "盘盘 - 全网最全的网盘搜索",
+  twitterTitle: "兔兔盘 - 全网最全的网盘搜索",
   twitterDescription:
     "聚合阿里云盘、夸克、百度网盘、115、迅雷等平台，实时检索各类分享链接与资源，免费、快速、无广告。",
   twitterImage: siteUrl ? `${siteUrl}/og.svg` : "/og.svg",
@@ -173,7 +173,7 @@ useHead({
     {
       name: "keywords",
       content:
-        "网盘搜索, 阿里云盘搜索, 夸克网盘搜索, 百度网盘搜索, 115 网盘, 迅雷云盘, 资源搜索, 盘搜, 盘盘",
+        "网盘搜索, 阿里云盘搜索, 夸克网盘搜索, 百度网盘搜索, 115 网盘, 迅雷云盘, 资源搜索, 盘搜, 兔兔盘",
     },
   ],
   script: [
@@ -182,7 +182,7 @@ useHead({
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: "盘盘",
+        name: "兔兔盘",
         url: siteUrl || "",
         potentialAction: {
           "@type": "SearchAction",
